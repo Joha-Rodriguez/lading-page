@@ -1,0 +1,125 @@
+.section {
+  position: relative;
+  padding: var(--section-pad) 0;
+  overflow: hidden;
+}
+
+.orb {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(51,112,166,0.1) 0%, transparent 70%);
+  filter: blur(80px);
+  right: -100px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.heading {
+  font-size: clamp(1.8rem, 3vw, 2.8rem);
+  font-weight: 800;
+}
+
+.accent {
+  background: linear-gradient(135deg, var(--c-steel), var(--c-aqua));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  position: relative;
+  padding: 36px 32px;
+  background: rgba(11,9,64,0.5);
+  border: 1px solid var(--c-border);
+  border-radius: var(--r-lg);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition: border-color 0.3s ease;
+  will-change: transform;
+}
+
+.card:hover {
+  border-color: rgba(51,112,166,0.45);
+}
+
+.quoteIcon {
+  color: var(--c-primary);
+  opacity: 0.6;
+}
+
+.text {
+  font-size: 0.9rem;
+  line-height: 1.75;
+  color: rgba(240,246,255,0.65);
+  flex: 1;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border-top: 1px solid var(--c-border);
+  padding-top: 20px;
+  position: relative;
+}
+
+.avatarCircle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--c-primary), var(--c-steel));
+  display: grid;
+  place-items: center;
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: white;
+  flex-shrink: 0;
+}
+
+.name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--c-white);
+}
+
+.role {
+  font-size: 0.72rem;
+  color: rgba(240,246,255,0.4);
+  margin-top: 1px;
+}
+
+.stars {
+  display: flex;
+  gap: 2px;
+  margin-left: auto;
+}
+
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr; max-width: 520px; margin: 0 auto; }
+}
