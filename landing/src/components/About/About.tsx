@@ -36,7 +36,7 @@ export default function About() {
         >
           <div className={styles.avatarWrap}>
             <div className={styles.avatar}>
-              <img src="/johanna.png" alt="Johanna Rodríguez" className={styles.avatarImg} />
+              <img src={`${import.meta.env.BASE_URL}johanna.png`} alt="Johanna Rodríguez" className={styles.avatarImg} />
             </div>
             <div className={styles.avatarRing} />
             <div className={styles.avatarRing2} />

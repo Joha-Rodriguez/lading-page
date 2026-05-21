@@ -77,7 +77,7 @@ export default function Hero() {
           <div className={styles.imageWrapper}>
             <div className={styles.imageGlow} />
             <img 
-              src="/johanna.png" 
+              src={`${import.meta.env.BASE_URL}johanna.png`} 
               alt="Johanna Marcela Rodríguez González" 
               className={styles.profileImage}
             />

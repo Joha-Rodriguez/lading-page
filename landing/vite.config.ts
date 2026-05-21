@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/lading-page/',
+  base: process.env.VERCEL ? '/' : '/lading-page/',
   plugins: [react()],
   resolve: {
     alias: {
