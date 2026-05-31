@@ -29,7 +29,7 @@ export default function Footer() {
           <div className={styles.contact}>
             <span className={styles.navTitle}>Contacto</span>
             <a href="mailto:contacto@johannarodriguez.dev" className={styles.link}>contacto@johannarodriguez.dev</a>
-            <a href="tel:+573001234567" className={styles.link}>+57 300 123 4567</a>
+            <a href="tel:+573118596673" className={styles.link}>+57 311 859 6673</a>
           </div>
         </div>
 
