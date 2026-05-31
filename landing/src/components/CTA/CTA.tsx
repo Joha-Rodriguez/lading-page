@@ -44,9 +44,9 @@ export default function CTA() {
           </motion.p>
 
           <motion.div className={styles.actions} variants={fadeUp}>
-            <a ref={btnRef} href="mailto:contacto@johannarodriguez.dev" className={styles.btnPrimary}>
+            <a ref={btnRef} href="mailto:marcelarodriguez0814@gmail.com" className={styles.btnPrimary}>
               <Mail size={16} />
-              contacto@johannarodriguez.dev
+              marcelarodriguez0814@gmail.com
               <ArrowRight size={16} />
             </a>
           </motion.div>
