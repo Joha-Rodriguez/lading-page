@@ -1,16 +1,13 @@
 import { motion } from 'framer-motion'
-import { Code2, Layers, Zap, Globe, Shield, BarChart3 } from 'lucide-react'
+import { Target, Users, BarChart3 } from 'lucide-react'
 import SectionLabel from '@/components/UI/SectionLabel'
 import { SERVICES } from '@/data'
 import { staggerContainer, fadeUp } from '@/animations/variants'
 import styles from './Services.module.css'
 
 const ICON_MAP: Record<string, React.ReactNode> = {
-  Code2: <Code2 size={22} />,
-  Layers: <Layers size={22} />,
-  Zap: <Zap size={22} />,
-  Globe: <Globe size={22} />,
-  Shield: <Shield size={22} />,
+  Target: <Target size={22} />,
+  Users: <Users size={22} />,
   BarChart3: <BarChart3 size={22} />,
 }
 

@@ -1,6 +1,7 @@
 export const NAV_LINKS = [
   { label: 'Inicio', href: '#hero' },
   { label: 'Sobre mí', href: '#about' },
+  { label: 'Autoridad', href: '#authority' },
   { label: 'Servicios', href: '#services' },
   { label: 'Portfolio', href: '#portfolio' },
   { label: 'Testimonios', href: '#testimonials' },
@@ -9,51 +10,27 @@ export const NAV_LINKS = [
 export const SERVICES = [
   {
     id: 1,
-    icon: 'Code2',
-    title: 'Desarrollo Web',
+    icon: 'Target',
+    title: 'Mentoría Profesional',
     description:
-      'Aplicaciones web de alto rendimiento con React, Next.js y TypeScript. Arquitecturas escalables pensadas para el futuro.',
-    tags: ['React', 'Next.js', 'TypeScript'],
+      'Para personas que buscan crecimiento laboral y desarrollo de carrera.',
+    tags: ['Desarrollo de Carrera', 'Growth', 'Mentoring'],
   },
   {
     id: 2,
-    icon: 'Layers',
-    title: 'UI/UX Design',
+    icon: 'Users',
+    title: 'Capacitación Empresarial',
     description:
-      'Interfaces que trascienden lo funcional. Experiencias de usuario que generan conversión y retención orgánica.',
-    tags: ['Figma', 'Design Systems', 'Motion'],
+      'Programas para fortalecer liderazgo, comunicación y trabajo en equipo.',
+    tags: ['Liderazgo', 'Habilidades Blandas', 'Team Building'],
   },
   {
     id: 3,
-    icon: 'Zap',
-    title: 'Performance',
-    description:
-      'Optimización profunda: Core Web Vitals, SSR, edge computing. Velocidad que se convierte en ventaja competitiva.',
-    tags: ['Core Web Vitals', 'CDN', 'Edge'],
-  },
-  {
-    id: 4,
-    icon: 'Globe',
-    title: 'Soluciones Cloud',
-    description:
-      'Infraestructura moderna en AWS, Vercel y Cloudflare. Despliegues CI/CD automáticos y monitoreo en tiempo real.',
-    tags: ['AWS', 'Vercel', 'CI/CD'],
-  },
-  {
-    id: 5,
-    icon: 'Shield',
-    title: 'Seguridad',
-    description:
-      'Implementación de mejores prácticas de seguridad. Auditorías, autenticación robusta y protección de datos.',
-    tags: ['Auth', 'OWASP', 'Encryption'],
-  },
-  {
-    id: 6,
     icon: 'BarChart3',
-    title: 'Analytics & SEO',
+    title: 'Consultoría Organizacional',
     description:
-      'Visibilidad orgánica y decisiones basadas en datos. Estrategias que generan tráfico cualificado sostenible.',
-    tags: ['SEO', 'Analytics', 'CRO'],
+      'Diagnóstico y estrategias para mejorar clima laboral y productividad.',
+    tags: ['Clima Laboral', 'Productividad', 'Cultura'],
   },
 ]
 

@@ -4,6 +4,7 @@ import Hero from './components/Hero/Hero'
 import MouseGlow from './components/UI/MouseGlow'
 
 const About = lazy(() => import('./components/About/About'))
+const Authority = lazy(() => import('./components/Authority/Authority'))
 const Services = lazy(() => import('./components/Services/Services'))
 const Portfolio = lazy(() => import('./components/Portfolio/Portfolio'))
 const Testimonials = lazy(() => import('./components/Testimonials/Testimonials'))
@@ -25,6 +26,7 @@ export default function App() {
         <Hero />
         <Suspense fallback={<Fallback />}>
           <About />
+          <Authority />
           <Services />
           <Portfolio />
           <Testimonials />
