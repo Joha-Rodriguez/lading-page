@@ -32,16 +32,15 @@ export default function CTA() {
           viewport={{ once: true, amount: 0.3 }}
         >
           <motion.p className={styles.eyebrow} variants={fadeUp}>
-            ¿Tienes un proyecto en mente?
+            Hablemos
           </motion.p>
           <motion.h2 className={styles.heading} variants={fadeUp}>
-            Construyamos algo
+            Transformemos desafíos
             <br />
-            <span className={styles.accent}>extraordinario.</span>
+            <span className={styles.accent}>en oportunidades.</span>
           </motion.h2>
           <motion.p className={styles.sub} variants={fadeUp}>
-            Respondo en menos de 24 horas. Sin reuniones innecesarias,
-            directo al grano y con resultados que importan.
+            Juntos podemos construir estrategias, fortalecer habilidades y generar resultados que impulsen tu crecimiento personal y profesional.
           </motion.p>
 
           <motion.div className={styles.actions} variants={fadeUp}>
