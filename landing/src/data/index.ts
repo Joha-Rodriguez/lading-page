@@ -64,33 +64,33 @@ export const PROJECTS = [
 export const TESTIMONIALS = [
   {
     id: 1,
-    name: 'Andrea Morales',
-    role: 'CEO, Fintech Latam',
-    text: 'La calidad del trabajo superó todas las expectativas. Nuestra plataforma pasó de 2s a 0.4s de carga. El impacto en conversiones fue inmediato y medible.',
-    avatar: 'AM',
+    name: 'María Fernanda López',
+    role: 'Líder de Equipo',
+    text: 'Johanna tiene la capacidad de escuchar, comprender y orientar con claridad. Su acompañamiento me permitió fortalecer mis habilidades de liderazgo y enfrentar nuevos desafíos con mayor confianza.',
+    avatar: 'MF',
     rating: 5,
   },
   {
     id: 2,
-    name: 'Santiago Ruiz',
-    role: 'CTO, Startup Bogotá',
-    text: 'No solo entrega código, entrega soluciones. La arquitectura que diseñó para nuestro MVP nos permitió escalar sin refactoring durante 18 meses.',
-    avatar: 'SR',
+    name: 'Carlos Andrés Gómez',
+    role: 'Gerente de Talento Humano',
+    text: 'Su enfoque humano y estratégico genera un impacto real en las personas. Gracias a sus procesos de acompañamiento logramos fortalecer la comunicación y el trabajo en equipo dentro de nuestra organización.',
+    avatar: 'CA',
     rating: 5,
   },
   {
     id: 3,
-    name: 'Valentina Torres',
-    role: 'Product Manager, E-Corp',
-    text: 'La atención al detalle visual es incomparable. Nuestros usuarios piensan que contratamos una agencia de NY. Trabajamos con un solo desarrollador.',
-    avatar: 'VT',
+    name: 'Diana Marcela Torres',
+    role: 'Profesional de Gestión Humana',
+    text: 'Más que una consultora, encontré una profesional comprometida con el crecimiento de las personas. Su orientación me ayudó a identificar oportunidades de desarrollo y avanzar en mis objetivos profesionales.',
+    avatar: 'DT',
     rating: 5,
   },
 ]
 
 export const STATS = [
-  { value: '47+', label: 'Proyectos entregados' },
-  { value: '99%', label: 'Satisfacción del cliente' },
-  { value: '3.2×', label: 'Mejora promedio en performance' },
   { value: '10', label: 'Años de experiencia' },
+  { value: '99%', label: 'Satisfacción' },
+  { value: '15+', label: 'Equipos liderados' },
+  { value: '200+', label: 'Líderes formados' },
 ]
