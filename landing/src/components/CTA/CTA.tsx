@@ -1,6 +1,6 @@
 import { useRef, Suspense, lazy } from 'react'
 import { motion } from 'framer-motion'
-import { Mail, ArrowRight, Github, Linkedin, Twitter, Instagram } from 'lucide-react'
+import { Mail, ArrowRight, Linkedin, Twitter, Instagram } from 'lucide-react'
 import { useMagneticButton } from '@/hooks/useMouseGlow'
 import { staggerContainer, fadeUp } from '@/animations/variants'
 import styles from './CTA.module.css'
@@ -52,9 +52,6 @@ export default function CTA() {
           </motion.div>
 
           <motion.div className={styles.social} variants={fadeUp}>
-            <a href="https://github.com/Joha-Rodriguez" target="_blank" rel="noopener noreferrer" className={styles.socialLink} aria-label="GitHub">
-              <Github size={18} />
-            </a>
             <a href="https://www.linkedin.com/in/joha-rodriguez-co/" target="_blank" rel="noopener noreferrer" className={styles.socialLink} aria-label="LinkedIn">
               <Linkedin size={18} />
             </a>
