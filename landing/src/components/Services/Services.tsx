@@ -25,13 +25,12 @@ export default function Services() {
         >
           <SectionLabel label="Servicios" align="center" />
           <motion.h2 className={styles.heading} variants={fadeUp}>
-            Lo que puedo hacer
+            Detrás de cada gran organización
             <br />
-            <span className={styles.accent}>por tu negocio.</span>
+            <span className={styles.accent}>hay personas que se sienten valoradas.</span>
           </motion.h2>
           <motion.p className={styles.sub} variants={fadeUp}>
-            Soluciones end-to-end para equipos que quieren mover rápido
-            sin sacrificar calidad ni escalabilidad.
+            Impulso el desarrollo del talento, el liderazgo y la cultura organizacional para generar resultados sostenibles.
           </motion.p>
         </motion.div>
 

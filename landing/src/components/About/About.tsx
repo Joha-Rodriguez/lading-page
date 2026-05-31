@@ -5,20 +5,20 @@ import { staggerContainer, fadeUp, slideInLeft, slideInRight } from '@/animation
 import styles from './About.module.css'
 
 const SKILLS = [
-  'React / Next.js / TypeScript',
-  'Node.js / API REST / GraphQL',
-  'AWS / Vercel / Docker',
-  'Figma / Motion Design',
-  'Three.js / WebGL / GSAP',
-  'PostgreSQL / MongoDB / Redis',
+  'Gestión del Cambio',
+  'Cultura Organizacional',
+  'Desarrollo de Talentos',
+  'Liderazgo Ejemplar',
+  'Coaching y Mentoring',
+  'Resolución de Conflictos',
 ]
 
 const TIMELINE = [
-  { year: '2016', event: 'Inicios en el sector financiero — Análisis y Resultados' },
+  { year: '2016', event: 'Inicios en el sector financiero — Gestión y Operaciones' },
   { year: '2019', event: 'Liderazgo de Equipos de Alto Rendimiento' },
-  { year: '2021', event: 'Gestión Estratégica de Proyectos Fintech' },
-  { year: '2023', event: 'Consultoría en Innovación y Estrategia Digital' },
-  { year: '2026', event: 'Hoy — Liderando con el ejemplo' },
+  { year: '2021', event: 'Gestión Estratégica del Talento Humano' },
+  { year: '2023', event: 'Consultoría y Facilitación de Aprendizaje' },
+  { year: '2026', event: 'Hoy — Acompañamiento profesional y liderazgo' },
 ]
 
 export default function About() {
@@ -41,9 +41,9 @@ export default function About() {
             <div className={styles.avatarRing} />
             <div className={styles.avatarRing2} />
             {/* Floating tags */}
-            <div className={`${styles.floatTag} ${styles.tag1}`}>React Expert</div>
+            <div className={`${styles.floatTag} ${styles.tag1}`}>Gestión Humana</div>
             <div className={`${styles.floatTag} ${styles.tag2}`}>10 años XP</div>
-            <div className={`${styles.floatTag} ${styles.tag3}`}>47+ proyectos</div>
+            <div className={`${styles.floatTag} ${styles.tag3}`}>Desarrollo de Talento</div>
           </div>
         </motion.div>
 
@@ -58,22 +58,17 @@ export default function About() {
           <SectionLabel label="Sobre mí" />
 
           <motion.h2 className={styles.heading} variants={fadeUp}>
-            Ingeniería con
+            Impulsando el
             <br />
-            <span className={styles.accent}>alma de diseñador.</span>
+            <span className={styles.accent}>potencial humano.</span>
           </motion.h2>
 
-          <motion.p className={styles.body} variants={fadeUp}>
-            Soy una líder estratégica con 10 años transformando ideas complejas
-            en productos digitales de clase mundial. Mi obsesión es el detalle:
-            desde la arquitectura estratégica hasta la experiencia final que genera
-            valor real para el usuario.
+          <motion.p className={styles.subHeading} variants={fadeUp} style={{ color: 'var(--c-aqua)', fontWeight: 500, fontSize: '1.15rem', marginBottom: '16px' }}>
+            Porque detrás de cada gran resultado existe una persona que decidió crecer.
           </motion.p>
 
           <motion.p className={styles.body} variants={fadeUp}>
-            Trabajo con organizaciones ambiciosas y empresas que entienden que la
-            innovación y el diseño son ventajas competitivas fundamentales en el
-            mercado actual.
+            Mi misión es acompañar a personas y organizaciones en la construcción de entornos donde el talento, el liderazgo y el bienestar se conviertan en motores de transformación. Creo en el desarrollo integral como la base para alcanzar objetivos sostenibles y generar impacto positivo en la vida de las personas y en los resultados de las organizaciones.
           </motion.p>
 
           {/* Skills */}
