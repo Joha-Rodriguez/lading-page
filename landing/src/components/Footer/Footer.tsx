@@ -13,9 +13,9 @@ export default function Footer() {
               <span className={styles.logoText}>JOHANNA</span>
             </div>
             <p className={styles.tagline}>
-              Innovación digital estratégica.
+              Transformando capital humano.
               <br />
-              Bogotá, Colombia — Remoto mundial.
+              Ibagué, Tolima. Colombia.
             </p>
           </div>
           <nav className={styles.nav}>
